@@ -1,0 +1,211 @@
+body{background-color: #B6B6B6;}
+header{display: flex;height: 20vh;background-color: white;}
+header img{ width: 16vw;height: 28vh;margin-top: -1.5rem;}
+
+
+
+/* ============= home_about_us ============== */
+
+.home_about_us_all{
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 5rem;
+    padding: 2.5rem 6rem;
+    margin-bottom: 5rem;
+}
+
+.home_about_us_all h1{
+    color: #C5143D;
+    text-align: center;
+    margin:2rem 0;
+}
+.home_about_us_all span{margin-left: 5rem;}
+
+.home_about_us_all .about_content{
+    display: flex;
+    gap: 4vw;
+    margin: 2rem 4rem;
+}
+
+.home_about_us_all .buttons{
+    margin: 0 20vw;
+    gap: 4rem;
+}
+.home_about_us_all .buttons button{
+    width: 8rem;
+    height: 8vh;
+    margin: 0 2rem;
+    font-size: 1vw;
+    font-weight: 600;
+    color: white;
+    background-color: #c321ce;
+    
+}
+.home_about_us_all .buttons button:hover{background-color:#21b7ce;}
+
+.home_about_us_all .services .img_sect{
+    display: flex;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.home_about_us_all .services .img_sect img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 5px;
+}
+.home_about_us_all .services h2{
+  color: #C5143D;
+    text-align: center;
+    margin:1rem 0;
+    font-size: 1.5vw;
+}
+  
+
+ 
+
+/*===================== about us ======================*/
+ .about_us_page{background-color: white;}
+
+
+
+  /* ========================contact================= */
+
+  .contact_page{
+    background-color: white;
+  }
+iframe{
+    margin: 2rem 20rem;
+    width: 50vw;
+}
+
+
+  /*========================= footer ===================*/
+footer{
+    height: 34rem;
+    padding: 4rem 1rem;
+    background-color: #B81D33;
+  }
+  
+footer  div{
+    gap: 7vw;
+    font-size: 1.5vw;
+    color:black;
+    font-family: 'Times New Roman', Times, serif25;
+    margin: 0 5vw;
+    display: flex;
+  }
+  footer ul{list-style: none;}
+ footer  div ul li {list-style: none;
+    font-size: 1.8vw;
+  }
+footer  div ul li a{
+    text-decoration: none;
+    color: black;
+  }
+ footer  div ul li a:hover{
+    color: skyblue;
+  }
+
+  footer div span{
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-left: 20rem;
+    padding: 2rem 0;
+}
+footer h2{
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+footer .copyright {
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 600;
+    text-decoration: overline;
+    margin-top: 2rem;
+}
+footer a img{
+    width: 2vw;
+    margin: 2vw 0;
+}
+
+ /* quick links */
+
+ footer div .quick_links{
+    display: table-row;
+  }
+  footer div .quick_links a{
+    text-decoration: none;
+    color: black;
+  }
+  footer div .quick_links a:hover{color: skyblue;text-transform: uppercase;}
+
+  /* ================= portfolio ======================= */
+
+  .portfolio_page{
+    background-color: white;
+  }
+
+  .portfolio_page section img{
+    width: 100%;
+    height:60vh;
+}
+
+.portfolio_page .services .img_sect{
+    display: flex;
+    text-align: center;
+    margin-bottom: 2rem;
+    gap: 2rem;
+    margin-left: 5rem;
+}
+
+.portfolio_page .services .img_sect img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 5px;
+    
+}
+.portfolio_page .goals{
+    margin: 2rem  15rem;
+    background-color: rgb(251, 248, 248);
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    box-shadow: 1px 2px;
+}
+
+.portfolio_page .services{
+    background-color: rgb(247, 246, 246);
+    margin: 2rem 8rem;
+}
+
+.portfolio_page .services h1{
+    text-align: center;
+    margin: 2rem 0;
+    color: #B81D33;
+}
+
+
+  /* ========  OUR TEAM ============*/
+  .testmonial{
+    display: flex;
+    width: 100%;
+    margin: 2rem 0 0 5rem;
+    overflow: hidden;
+}
+h1{text-align: center;}
+.testmonial div{
+    display: table-row;
+    /* width: 70%; */
+}
+/* tesmonial images */
+.testmonial div img{
+    width: 15vw;
+    border-radius: 50%;
+    height: 15vw;
+    margin-left:2rem ;
+}
+.testmonial div p{text-align: center;}
+.video video{
+  margin-left: 20rem;
+  width: 60vw;
+}

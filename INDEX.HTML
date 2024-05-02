@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/general.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="/images/logo.png">
+</head>
+<body>
+    <header>
+        <!-- logo and heading -->
+        <img src="/images/logo.png" alt="">
+        <span>
+            TOPSTAR EVENTS
+        </span>
+    </header>
+    <!-- navigation -->
+    
+    <nav>
+        <ul>
+            <li><a href="/INDEX.HTML">HOME</a></li>
+            <li><a href="/ABOUT US.HTML">ABOUT-US</a></li>
+            <li><a href="/CONTACT US.html">CONTACT</a></li>
+
+        
+            <li id="products"><a href="#">PRODUCTS  </a>
+                        <ul class="products_dropdown">
+                            <li><a href="/wedding cakes.html"> CAKES</a></li>
+                            <li><a href="../GOWNS.html">BRIDAL GOWNS</a></li>
+                            <li><a href="../TENTS.html">TENTS</a></li>
+                            <li><a href="../SUITS.html">SUITS</a></li>
+                            
+                            <li><a href="../FLOWERS.html">FLOWERS </a></li>
+                    
+                        </ul>
+            </li>
+            <li id="funiture"><a href="#">SERVICES</a>
+                <ul class="funiture_dropdown">
+                    <li><a href="/decor&design.html"> DECOR AND DESIGN</a></li>
+                    <li><a href="/eventplanninf.html"> EVENT PLANNING AND COORDINATION</a></li>
+            
+                </ul>
+            </li>
+            <li><a href="/portfolio.html">PORTFOLIO</a></li>
+        </ul>
+    </nav>
+    <!-- slider starts -->
+    <div class="slider-frame">
+         <div class="slider-images">
+        <img src="images/floweeerr.png" alt="">
+        </div>
+        
+        <div class="slider-images">
+            <img src="images/D2.jpeg" alt=" stockings">
+            </div>
+        
+            <div class="slider-images">
+                <img src="images/twecie3.jpg" alt="orange dress">
+            </div>
+            <div class="slider-images">
+               <img src="images/decor.png" alt="@coolz">
+           </div>
+
+           <div class="slider-images">
+               <img src="images/bridemaids.png" alt=" @pro">
+           </div>
+           <div class="slider-images">
+               <img src="images/PINKY CAKEEE.png" alt="">
+           </div> 
+           <div class="slider-images">
+               <img src="images/ufkv6sj2.png" alt="">
+                       </div>
+                    
+                   </div>
+       
+    <script>
+        let slidesIndex = 0;
+    showSlides();
+        function showSlides() {
+    let x;
+    let slides = document.getElementsByClassName("slider-images");
+    for (x = 0; x<slides.length; x++) {
+   slides[x].style.display ="none";
+    }
+    slidesIndex++;
+    if (slidesIndex > slides.length) { slidesIndex = 1}
+    
+    slides[slidesIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000);
+        }
+        </script>
+
+<!-- the slider end -->
+
+
+<!-- =====================home about us  section ===============-->
+<div class="home_about_us_all">
+    <h1>WELCOME TO TOP STAR EVENTS UGANDA</h1>
+    <span>We are committed to finding out what exactly our customers want and delivering solutions that often exceed their expectations.</span>
+        <div class="about_content">
+            <div class="mission">
+                <h2>Our Mission</h2><br>
+                <p>To be the nation’s largest and best known  <br>
+                    company that is highly respected, <br>
+                    dependable and delivers professional and <br>
+                    unique services exceeding the <br>
+                    expectations of our clients with ethical <br>
+                    dealings and excellent values. <br>
+                    “Your Choice, Our Expertise”</p><br>
+            </div>
+            <div class="our_approach">
+                <h2>Our Approach</h2>
+                <p>Our Approach to business is Simple: <br>
+                    We meet our clients.Tailor a project plan <br>
+                    for the event or service specific to your. <br>
+                     Company. Formulate and Agree <br>
+                     on the project budget.</p> <br>
+            </div>
+            <div class="benefits">
+                <h2>Your company benefits</h2> 
+                <p>Freeing staff members to concentrate on<br>
+                     their prime function within your company.<br>
+                    Decreased demand on your staff’s personal <br>
+                    and family time. Reduced cost through <br>
+                    price negotiations and budget management.</p><br>
+            </div>
+         
+        </div>
+
+        <div class="buttons">
+            <a href="/eventplanninf.html"><button>OUR SERVICE</button></a>
+            <a href="/ABOUT US.HTML"><button>ABOUT US</button></a>
+        </div>
+
+        <div class="services">
+            <h1>OUR SERVICES</h1> <br> 
+            
+            <h2>DECORATIONS </h2>
+            <div class="img_sect">
+                <div ><img src="/images/flooooweeeers.png" alt=""></div>
+                <div><img src="/images/floweeeeeeeeeeeeeeeeeeee.png" alt=""></div>
+                <div><img src="/images/floweeerr.png" alt=""></div>
+            </div>
+
+            <h2>Bridal </h2>
+            <div class="img_sect">
+                <div><img src="/images/sharon.png" alt=""></div>
+                <div><img src="/images/gown45.png" alt=""></div>
+                <div><img src="/images/bridemaids.png" alt=""></div>
+            </div>
+
+           
+            
+           
+        </div>
+</div>
+<div class="vd"> <video src="/images/videoplayback.mp4 "autoplay muted loop ></video></div>
+
+<footer>
+
+    <div>
+        <section class="quick_links">
+            <h2>QUICK_LINKS</h2>
+            <a href="/ABOUT US.HTML">about_us</a> <br>
+            <a href="/portfolio.html">portfolio</a><br>
+            <a href="/CONTACT US.html">contact us</a> <br>
+            <a href="/wedding cakes.html">cakes</a><br>
+            <a href="/GOWNS.html">Bridal gowns</a><br>
+            <a href="/TENTS.html">Tents</a><br>
+            <a href="/SUITS.HTML">suits</a><br>
+            <a href="/FLOWERS.html">Flowers</a><br>   
+        </section>
+
+        <section>
+                <P> <h2>WHO_WE_ARE</h2>
+                    we pride ourselves on being the primier
+                     destination for all your event needs.
+                     Whether you're planning awedding, birthday party,
+                     corparate event,
+                    or any other special occassion
+                <br> we offer a comprehensive array
+            <br>of services to make your celebration truly unforgottable. </P>
+        </section>
+    
+        <ul>
+            <li ><h2>Contact Information</h2></li><br>
+            <li>Fortportal city</li>
+            <li>Kengonzitopista@gmail.com</li>
+            <li>+256- 782071474</li>
+            <li>+256- 740507544</li>
+        </ul>
+    
+        <section class="quick_links">
+            <h2>Services offered </h2>
+            <a href="">DECORATION AND DESIGN</a>
+            <a href="">EVENT PLANNING AND CORDINATION</a>
+            <a href=""> EVENT MARKETING AND PROMOTION</a>
+        </section>
+    </div>
+    <div>  <span>follow us on </span>
+        <a href="https://twitter.com/"><img src="/images/twitter.png" alt="">
+        <a href="https://facebook.com/"><img src="/images/104498_facebook_icon.png" alt=""></a>
+        <a href="https://whatsapp.com/"><img src="/images/whatsapp (2).png" alt=""></a>
+    </div> 
+ <p class="copyright">© 2024 TopStar Events. All Rights Reserved. Terms and Conditions</p> <br><br>
+</footer>
+</body>
+    
+
+    
+
+
+
+
+
